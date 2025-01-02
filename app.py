@@ -29,7 +29,7 @@ generated_folder = "generated"
 os.makedirs(generated_folder, exist_ok=True)
 
 def generate_image(prompt, model="flux-pro", seed=None, width=1024, height=1024,steps=100,cfg_scale=9,
-                   nologo=None, private=None, enhance=None):
+                   nologo=None, private=None, enhance=None,safe=None):
 
     """
     Generate a high-quality image using the Pollinations AI API.
